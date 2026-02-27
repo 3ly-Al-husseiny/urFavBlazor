@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="BlazorApp/BlazorApp.csproj" />
   <Project Path="BlazorProject/BlazorProject.csproj" />
+  <Project Path="BlazorWebAssembly/BlazorWebAssembly.csproj" />
+  <Project Path="BlazorWebAssemblyEmpty/BlazorWebAssemblyEmpty.csproj" />
 </Solution>

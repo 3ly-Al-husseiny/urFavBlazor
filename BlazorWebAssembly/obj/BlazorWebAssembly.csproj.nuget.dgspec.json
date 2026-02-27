@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ali/Software Engineering/Server-Side Development/ASP.NET/BlazorSolution/BlazorWebAssembly/BlazorWebAssembly.csproj": {}
+  },
+  "projects": {
+    "/home/ali/Software Engineering/Server-Side Development/ASP.NET/BlazorSolution/BlazorWebAssembly/BlazorWebAssembly.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ali/Software Engineering/Server-Side Development/ASP.NET/BlazorSolution/BlazorWebAssembly/BlazorWebAssembly.csproj",
+        "projectName": "BlazorWebAssembly",
+        "projectPath": "/home/ali/Software Engineering/Server-Side Development/ASP.NET/BlazorSolution/BlazorWebAssembly/BlazorWebAssembly.csproj",
+        "packagesPath": "/home/ali/.nuget/packages/",
+        "outputPath": "/home/ali/Software Engineering/Server-Side Development/ASP.NET/BlazorSolution/BlazorWebAssembly/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ali/.dotnet/sdk/7.0.410/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
